@@ -1,3 +1,5 @@
+
+![Study Assistant](https://github.com/Akshay-hub-007/QuizzyBot/blob/main/image.png)
 # Study Assistant
 
 A modular AI-powered assistant for personalized study planning and quiz generation.
