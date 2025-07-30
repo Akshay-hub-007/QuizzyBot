@@ -21,13 +21,12 @@ app.add_middleware(
 
 class QueryRequest(BaseModel):
     query: str
-    state: dict = {}
 
 workflow = build_workflow()
 
 @app.post("/run_workflow")
 async def run_workflow(req: QueryRequest):
-    state = req.state.copy() if req.state else {}
+    state={}
     state['query'] = req.query
     print(req.query)
     # Run the workflow

@@ -1,5 +1,10 @@
-# .gitignore
+# Ignore Python virtual environments
 venv/
+env/
+
+# Bytecode cache
 __pycache__/
 *.pyc
-env/
+
+# Environment variables
+.env

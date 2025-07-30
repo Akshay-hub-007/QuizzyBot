@@ -204,8 +204,8 @@ def build_workflow():
     workflow = graph.compile()
     return workflow
 
-wf=build_workflow()
-res=wf.invoke({'query':'what are trending courses'})
-print(res)
-res=study_plan({'topic':'java'})
+# wf=build_workflow()
+# res=wf.invoke({'query':'what are trending courses'})
+# print(res)
+# res=study_plan({'topic':'java'})
 
